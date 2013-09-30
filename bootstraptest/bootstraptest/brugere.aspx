@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+        <asp:SqlDataSource ID="SqlDataBrugere" runat="server"></asp:SqlDataSource>
     </div>
     </form>
 </body>
