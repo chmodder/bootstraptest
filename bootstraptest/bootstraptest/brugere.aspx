@@ -4,8 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <asp:SqlDataSource ID="SqlDataBrugere" runat="server" ConnectionString="connectionString" SelectCommand="SELECT * FROM [brugere]"></asp:SqlDataSource>
-
+    
     <asp:Repeater ID="RepeaterBrugere" DataSourceID="SqlDataBrugere" runat="server"></asp:Repeater>
 
     <table class="table table-striped">
