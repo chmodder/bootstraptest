@@ -4,8 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    
-    <asp:Repeater ID="RepeaterBrugere" DataSourceID="SqlDataBrugere" runat="server"></asp:Repeater>
+    <asp:SqlDataSource ID="SqlDataBrugere" runat="server" ConnectionString='<%$ ConnectionStrings:ConnectionString %>' SelectCommand="SELECT * FROM [brugere] ORDER BY [navn]"></asp:SqlDataSource>
 
     <table class="table table-striped">
 
@@ -17,8 +16,12 @@
             <th>Password</th>
         </tr>
 
+    <asp:Repeater ID="RepeaterBrugere" DataSourceID="SqlDataBrugere" runat="server"></asp:Repeater>
 
-        <ItemTemplate>
+    
+
+
+        <>
 
             <tr>
                 <th><%# Eval ("Id") %></th>
@@ -28,7 +31,7 @@
                 <th><%# Eval ("password") %></th>
             </tr>
 
-        </ItemTemplate>
+        </>
 
 
 
