@@ -1,0 +1,5 @@
+C:\Users\322773\Documents\My Box Files\Documents\skole\ASP.NET\bootstraptest\bootstraptest\bootstraptest\bin\bootstraptest.dll
+C:\Users\322773\Documents\My Box Files\Documents\skole\ASP.NET\bootstraptest\bootstraptest\bootstraptest\bin\bootstraptest.pdb
+C:\Users\322773\Documents\My Box Files\Documents\skole\ASP.NET\bootstraptest\bootstraptest\bootstraptest\obj\Debug\bootstraptest.csprojResolveAssemblyReference.cache
+C:\Users\322773\Documents\My Box Files\Documents\skole\ASP.NET\bootstraptest\bootstraptest\bootstraptest\obj\Debug\bootstraptest.dll
+C:\Users\322773\Documents\My Box Files\Documents\skole\ASP.NET\bootstraptest\bootstraptest\bootstraptest\obj\Debug\bootstraptest.pdb
